@@ -194,7 +194,7 @@ export default function App() {
 
   const ingestPDF = useCallback(async (file) => {
     setStatus('ממיר PDF...');
-    const { getDocument, GlobalWorkerOptions } = await import('pdfjs-dist');
+    const { getDocument, GlobalWorkerOptions } = await import('pdfjs-dist/legacy/build/pdf');
     GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`;
     const ab  = await file.arrayBuffer();
     const pdf = await getDocument({ data: ab }).promise;
