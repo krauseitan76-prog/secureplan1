@@ -1,1 +1,17 @@
-{"name":"secureplan","version":"1.0.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"15.1.0","react":"^18","react-dom":"^18","@anthropic-ai/sdk":"^0.25.0","pdfjs-dist":"3.11.174"}}
+{
+  "name": "secureplan",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "@anthropic-ai/sdk": "^0.25.0",
+    "pdfjs-dist": "3.11.174"
+  }
+}
